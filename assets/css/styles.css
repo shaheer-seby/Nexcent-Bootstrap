@@ -1,0 +1,294 @@
+h1{
+
+font-family: "Inter", sans-serif;
+
+}
+
+
+.h1green{
+
+color: #0e7c08;
+
+}
+
+
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color:white;
+    padding: 10px 0;
+}
+
+
+/* Nav Bar*/
+
+nav{
+    
+    
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    
+    
+
+}
+
+
+.logo
+{
+
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+
+
+
+}
+
+.nav-buttons{
+
+display: flex;
+justify-content: flex-end;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+.nav-buttons a{
+
+    background-color: white;
+    color: #555;
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.nav-buttons a:hover{
+
+    background-color: #0e7c08;
+    color: white;
+    border-radius: 10px;
+}
+
+#regbtna
+{
+color: white;
+background-color: #0e7c08;
+border-radius: 10px;
+}
+
+
+
+
+@media screen and (max-width: 768px)
+{
+
+.nav-buttons{
+
+display: none;
+
+}
+
+}
+
+
+/*main buttons*/
+
+.regbtn{
+
+    background-color: #0e7c08;
+    border-radius: 8px;    
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    
+    
+
+}
+
+
+
+/*carousel*/
+
+
+
+.carousel{
+
+background-color: #F5F7FA;
+margin: 20px 0;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+
+}
+
+.carousel p{
+
+    margin-bottom: 50px;
+}
+
+
+
+.cimg{
+
+    max-width: 100%;
+       
+
+}
+
+
+
+
+
+
+.client_section{
+
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+
+
+.client-icons{
+  
+    display:flex;
+    flex-wrap:wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.client-icons img{
+
+
+        margin: 25px 60px;
+        max-width: 100px;
+        height: auto;
+
+}
+
+
+
+
+/*client community*/
+
+
+.client-community{
+
+margin: 50px 0; 
+}
+
+.client-community-desc{
+
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.client-community-tiles{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.client-community-tile{
+
+text-align: center;
+width: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 250px;
+padding: 20px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+border-radius: 8px;
+background-color: #fff;
+
+
+}
+
+
+.pixelgrade{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+
+.pxgimg{
+
+    padding:30px;
+}
+
+.pxgcontent
+{
+    padding: 50px;
+
+
+}
+@media screen and (max-width:650px)
+{
+
+    .pixelgrade{
+
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+
+
+
+   
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
